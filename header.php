@@ -103,11 +103,12 @@
 
     <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorscript.js"></script>
 
-    <link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/style.css"></link>
-
-    <link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
+<?php get_sidebar('css');?>
 
 
+
+
+<?php wp_head(); ?>  
 
 
 
@@ -117,91 +118,5 @@
 
 <body>
 
+<?php get_sidebar('headnav');?>
 
-
-    <div id="header">
-
-
-
-        <div id="headcon">
-
-
-
-            <div id="logo">
-
-
-
-
-
-            </div>
-
-
-
-            <div id="menu">
-
-
-
-
-
-                <div id="abs_home">
-
-
-
-                    <a href="/"></a>
-
-
-
-                </div>
-
-
-
-                <div id="abs_port">
-
-
-
-                    <a href="/portfolio"></a>
-
-
-
-                </div>
-
-
-
-                <div id="abs_about">
-
-
-
-                    <a href="/about"></a>
-
-
-
-                </div>
-
-
-
-                <div id="abs_blog">
-
-
-
-                    <a href="/blog"></a>
-
-
-
-                </div>
-
-
-
-
-
-            </div>
-
-
-
-
-
-        </div>
-
-
-
-    </div>
-    <!--end header-->

@@ -1,0 +1,64 @@
+<?php bloginfo('template_directory');?>
+
+<?php bloginfo('url'); ?>
+
+<?php wp_head(); ?>  
+
+<?php wp_footer();?>
+
+<?php get_sidebar('name');?>
+(then sidebar-name.php)
+
+    <?php get_header(); ?>
+index 
+
+port
+
+about
+
+blog 
+
+in header, add correct dynamic links for navigation -v
+made sidebar.php for navigation  -v 
+implment header inclide on all template files -v
+	-found css errors -v
+	-added condtional css -v
+noticed errors in blog page structure -v
+deactivted blog link in nav , will rebuild later -v
+added correct wp_head and footer hooks
+
+
+
+
+<!--stylesheet conditional-->
+
+
+<?php
+
+if ( is_page_template( 'home.php' ) ) { ?>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+
+<?php
+} elseif ( is_page_template( 'contact.php' ) ) { ?>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/contact_form.css" media="screen" type="text/css" />
+
+<?php
+} elseif ( is_page_template( 'contact.php' ) ) { ?>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/contact_form.css" media="screen" type="text/css" />
+
+<?php
+} elseif ( is_page_template( 'contact.php' ) ) { ?>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/contact_form.css" media="screen" type="text/css" />
+
+
+
+<?php
+} else {
+
+}
+
+?>
+
+	
+	
+<!--end stylesheet conditional-->
