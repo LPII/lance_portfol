@@ -7,21 +7,21 @@ Template Name: Contact
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery-1.4.1.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-1.4.1.js"></script>
 
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/misc.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.lightbox-0.5.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/misc.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lightbox-0.5.js"></script>
 <script type="text/javascript">
 $(function() {
 	$('.gallery a').lightBox(); // Select all links in object with gallery ID
 });
 </script>
-		<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorplugin.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorscript.js"></script>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/contact-style.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/jquery.lightbox-0.5.css"></link>
-		<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/footer.css"></link>
+		<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorplugin.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorscript.js"></script>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/contact-style.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/jquery.lightbox-0.5.css"></link>
+		<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 

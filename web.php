@@ -9,25 +9,25 @@ Template Name:Web
 <head>
 	
 	
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery-1.4.1.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/misc.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.lightbox-0.5.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-1.4.1.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/misc.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lightbox-0.5.js"></script>
 <script type="text/javascript">
 $(function() {
 	$('.gallery a').lightBox(); // Select all links in object with gallery ID
 });
 </script>
-		<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorplugin.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorscript.js"></script>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/web-style.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/footer.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/jquery.lightbox-0.5.css"></link>
+		<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorplugin.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorscript.js"></script>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/web-style.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/jquery.lightbox-0.5.css"></link>
 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 	<title>Web</title>
-<link rel="icon" href="/wp-content/themes/BLANK-Theme/images/fav.png" type="image/png">
+<link rel="icon" href="<?php bloginfo('template_directory');?>/images/fav.png" type="image/png">
 </head>
 
 <body>
@@ -130,13 +130,13 @@ $(function() {
 
 									<li>
 										
-												<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_1.jpg" title="hyprEVO website">
+												<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_1.jpg" title="hyprEVO website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/HEW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_2.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_3.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_4.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_5.jpg" title="hyprEVO website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HEW_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_2.jpg" title="hyprEVO website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_3.jpg" title="hyprEVO website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_4.jpg" title="hyprEVO website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_5.jpg" title="hyprEVO website"/>
 															
 										</a>
 										
@@ -145,24 +145,24 @@ $(function() {
 
 									<li>
 
-													<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_1.jpg" title="Dani & Micah Wedding website">
+													<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_1.jpg" title="Dani & Micah Wedding website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/DMW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_2.jpg" title="Dani & Micah Wedding website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_3.jpg" title="Dani & Micah Wedding website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_4.jpg" title="Dani & Micah Wedding website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMW_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_2.jpg" title="Dani & Micah Wedding website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_3.jpg" title="Dani & Micah Wedding website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_4.jpg" title="Dani & Micah Wedding website"/>
 										</a>
 
 									</li>
 
 									<li>
 										
-										<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_1.jpg" title="Start Young Financial Group website">
+										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_1.jpg" title="Start Young Financial Group website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/SYFGW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_2.jpg" title="Start Young Financial Group website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_3.jpg" title="Start Young Financial Group website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_4.jpg" title="Start Young Financial Group website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFGW_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_2.jpg" title="Start Young Financial Group website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_3.jpg" title="Start Young Financial Group website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_4.jpg" title="Start Young Financial Group website"/>
 															
 										</a>
 
@@ -170,11 +170,11 @@ $(function() {
 
 									<li id="last">
 
-													<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/AMP_1.jpg" title="AMP Music Festival website">
+													<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_1.jpg" title="AMP Music Festival website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/AMP_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/AMP_2.jpg" title="AMP Music Festival website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/AMP_3.jpg" title="AMP Music Festival website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/AMP_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_2.jpg" title="AMP Music Festival website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_3.jpg" title="AMP Music Festival website"/>
 															
 										</a>
 
@@ -191,7 +191,7 @@ $(function() {
 												
 				<li>
 										
-									<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
+									<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
 															
 										</a>
 										

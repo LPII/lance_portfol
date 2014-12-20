@@ -19,12 +19,12 @@ v.2.1.2
 	<title>
 	Home
 	</title>
-<link rel="icon" href="/wp-content/themes/BLANK-Theme/images/fav.png" type="image/png">
+<link rel="icon" href="<?php bloginfo('template_directory');?>/images/fav.png" type="image/png">
 
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery-1.4.1.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.lwtCountdown-1.0.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/misc.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/iesucks.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-1.4.1.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lwtCountdown-1.0.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/misc.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/iesucks.js"></script>
 	<script type="text/javascript">
 
 function slideSwitch() {
@@ -56,10 +56,10 @@ $(function() {
     setInterval( "slideSwitch()", 6800 );
 });
 	</script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorplugin.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorscript.js"></script>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/style.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/footer.css"></link>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorplugin.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorscript.js"></script>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/style.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
 	
 	
 
@@ -113,7 +113,7 @@ $(function() {
 
 		</div>
 
-	</div>
+	</div><!--end header-->
 <div id="gallery_bg">
 
 
@@ -135,8 +135,8 @@ $(function() {
 			<div id="gal_con">
 
 <div id="slideshow"> 
-     <img src="/wp-content/themes/BLANK-Theme/images/gal_1.jpg" alt="" class="active"/> 
-	<img src="/wp-content/themes/BLANK-Theme/images/gal_2.jpg" alt="ME"  /> 
+     <img src="<?php bloginfo('template_directory');?>/images/gal_1.jpg" alt="" class="active"/> 
+	<img src="<?php bloginfo('template_directory');?>/images/gal_2.jpg" alt="ME"  /> 
 
 
 </div> 

@@ -9,25 +9,25 @@ Template Name: Port
 <head>
 	
 	
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery-1.4.1.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/misc.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.lightbox-0.5.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-1.4.1.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/misc.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lightbox-0.5.js"></script>
 <script type="text/javascript">
 $(function() {
 	$('.gallery a').lightBox(); // Select all links in object with gallery ID
 });
 </script>
-		<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorplugin.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorscript.js"></script>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/port-style.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/footer.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/jquery.lightbox-0.5.css"></link>
+		<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorplugin.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorscript.js"></script>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/port-style.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/jquery.lightbox-0.5.css"></link>
 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 	<title>Portfolio</title>
-<link rel="icon" href="/wp-content/themes/BLANK-Theme/images/fav.png" type="image/png">
+<link rel="icon" href="<?php bloginfo('template_directory');?>/images/fav.png" type="image/png">
 </head>
 
 <body>
@@ -129,10 +129,10 @@ $(function() {
 
 									<li>
 										
-												<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/STO_1.jpg" title="Big Stosh's Deli Logo">
+												<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/STO_1.jpg" title="Big Stosh's Deli Logo">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/STO_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/STO_2.jpg" title="Big Stosh's Deli Logo"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/STO_thumb.jpg" width="72" height="72" alt="" />
+											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/STO_2.jpg" title="Big Stosh's Deli Logo"/>
 															
 										</a>
 										
@@ -141,10 +141,10 @@ $(function() {
 
 									<li>
 
-											<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/HE_1.jpg" title="hyprEVO Logo">
+											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HE_1.jpg" title="hyprEVO Logo">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/HE_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HE_2.jpg" title="hyprEVO Logo"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HE_thumb.jpg" width="72" height="72" alt="" />
+											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HE_2.jpg" title="hyprEVO Logo"/>
 															
 										</a>
 
@@ -152,10 +152,10 @@ $(function() {
 
 									<li>
 										
-									<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/DM_1.jpg" title="Dani & Micah Wedding Brand"">
+									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DM_1.jpg" title="Dani & Micah Wedding Brand"">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/DM_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DM_2.jpg" title="Dani & Micah Wedding Brand"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DM_thumb.jpg" width="72" height="72" alt="" />
+											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DM_2.jpg" title="Dani & Micah Wedding Brand"/>
 															
 										</a>
 
@@ -163,10 +163,10 @@ $(function() {
 
 									<li id="last">
 
-										<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFG_1.jpg" title="Start Young Financial Group Brand"">
+										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFG_1.jpg" title="Start Young Financial Group Brand"">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/SYFG_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFG_2.jpg" title="Start Young Financial Group Brand"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFG_thumb.jpg" width="72" height="72" alt="" />
+											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFG_2.jpg" title="Start Young Financial Group Brand"/>
 															
 										</a>
 
@@ -182,9 +182,9 @@ $(function() {
 
 														<li>
 										
-						<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/4E_1.jpg" title="4eyes2see Brand">
+						<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/4E_1.jpg" title="4eyes2see Brand">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/4E_thumb.jpg" width="72" height="72" alt="" />
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/4E_thumb.jpg" width="72" height="72" alt="" />
 										
 															
 										</a>
@@ -193,10 +193,10 @@ $(function() {
 									</li>
 				<li>
 										
-						<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/RLE_1.jpg" title="Rocky Loves Emily Concert Poster">
+						<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/RLE_1.jpg" title="Rocky Loves Emily Concert Poster">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/RLE_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/RLE_2.jpg" title="Rocky Loves Emily Concert Poster"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/RLE_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/RLE_2.jpg" title="Rocky Loves Emily Concert Poster"/>
 															
 										</a>
 										
@@ -205,10 +205,10 @@ $(function() {
 
 									<li>
 
-									<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/SKY_1.jpg" title="Sky Club Promotional Poster">
+									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SKY_1.jpg" title="Sky Club Promotional Poster">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/SKY_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SKY_2.jpg" title="Sky Club Promotional Poster"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SKY_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SKY_2.jpg" title="Sky Club Promotional Poster"/>
 															
 										</a>
 
@@ -216,9 +216,9 @@ $(function() {
 
 									<li id="last">
 
-									<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/DMD_1.jpg" title="Dani & Micah Wedding Magnet/Postcards">
+									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMD_1.jpg" title="Dani & Micah Wedding Magnet/Postcards">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/DMD_thumb.jpg" width="72" height="72" alt="" />
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMD_thumb.jpg" width="72" height="72" alt="" />
 										
 															
 										</a>
@@ -235,9 +235,9 @@ $(function() {
 
 									<li>
 
-										<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/STOP_1.jpg" title="Big Stosh's Brand Collateral ">
+										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/STOP_1.jpg" title="Big Stosh's Brand Collateral ">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/STOP_thumb.jpg" width="72" height="72" alt="" />
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/STOP_thumb.jpg" width="72" height="72" alt="" />
 									
 										</a>
 
@@ -245,13 +245,13 @@ $(function() {
 
 									<li>
 
-										<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_1.jpg" title="hyprEVO website">
+										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_1.jpg" title="hyprEVO website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/HEW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_2.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_3.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_4.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/HEW_5.jpg" title="hyprEVO website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HEW_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_2.jpg" title="hyprEVO website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_3.jpg" title="hyprEVO website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_4.jpg" title="hyprEVO website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_5.jpg" title="hyprEVO website"/>
 															
 										</a>
 
@@ -259,12 +259,12 @@ $(function() {
 
 									<li>
 
-										<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_1.jpg" title="Dani & Micah Wedding website">
+										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_1.jpg" title="Dani & Micah Wedding website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/DMW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_2.jpg" title="Dani & Micah Wedding website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_3.jpg" title="Dani & Micah Wedding website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/DMW_4.jpg" title="Dani & Micah Wedding website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMW_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_2.jpg" title="Dani & Micah Wedding website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_3.jpg" title="Dani & Micah Wedding website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_4.jpg" title="Dani & Micah Wedding website"/>
 										
 											
 															
@@ -274,12 +274,12 @@ $(function() {
 
 									<li id="last">
 
-										<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_1.jpg" title="Start Young Financial Group website">
+										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_1.jpg" title="Start Young Financial Group website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/SYFGW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_2.jpg" title="Start Young Financial Group website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_3.jpg" title="Start Young Financial Group website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/SYFGW_4.jpg" title="Start Young Financial Group website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFGW_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_2.jpg" title="Start Young Financial Group website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_3.jpg" title="Start Young Financial Group website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_4.jpg" title="Start Young Financial Group website"/>
 									
 															
 										</a>
@@ -297,11 +297,11 @@ $(function() {
 
 									<li>
 
-											<!--first image--><a href="/wp-content/themes/BLANK-Theme/photos/AMP_1.jpg" title="AMP Music Festival website">
+											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_1.jpg" title="AMP Music Festival website">
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/AMP_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/AMP_2.jpg" title="AMP Music Festival website"/>
-										<!--second image--><a href="/wp-content/themes/BLANK-Theme/photos/AMP_3.jpg" title="AMP Music Festival website"/>
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/AMP_thumb.jpg" width="72" height="72" alt="" />
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_2.jpg" title="AMP Music Festival website"/>
+										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_3.jpg" title="AMP Music Festival website"/>
 															
 										</a>
 
@@ -309,7 +309,7 @@ $(function() {
 
 									<li>
 
-									<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
+									<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
 															
 										</a>
 
@@ -317,14 +317,14 @@ $(function() {
 
 									<li>
 
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
 
 									</li>
 
 									<li id="last">
 
 									
-											<!--thumbnail--><img src="/wp-content/themes/BLANK-Theme/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
+											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
 															
 										
 

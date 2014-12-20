@@ -9,25 +9,25 @@ Template Name:Misc
 <head>
 	
 	
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery-1.4.1.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/misc.js"></script>
-	<script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.js"></script>
-    <script type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/jquery.lightbox-0.5.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-1.4.1.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/misc.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery.lightbox-0.5.js"></script>
 <script type="text/javascript">
 $(function() {
 	$('.gallery a').lightBox(); // Select all links in object with gallery ID
 });
 </script>
-		<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorplugin.js"></script>
-	<script language="Javascript" type="text/javascript" src="/wp-content/themes/BLANK-Theme/js/colorscript.js"></script>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/misc-style.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/footer.css"></link>
-	<link rel="Stylesheet" type="text/css" href="/wp-content/themes/BLANK-Theme/jquery.lightbox-0.5.css"></link>
+		<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorplugin.js"></script>
+	<script language="Javascript" type="text/javascript" src="<?php bloginfo('template_directory');?>/js/colorscript.js"></script>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/misc-style.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
+	<link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/jquery.lightbox-0.5.css"></link>
 	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 	<title>Misc</title>
-<link rel="icon" href="/wp-content/themes/BLANK-Theme/images/fav.png" type="image/png">
+<link rel="icon" href="<?php bloginfo('template_directory');?>/images/fav.png" type="image/png">
 </head>
 
 <body>

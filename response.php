@@ -12,7 +12,7 @@ Template Name: response
   <meta name="viewport" content="width=device-width" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900,700,500' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/wp-content/themes/BLANK-Theme/response/re.css" />
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/response/re.css" />
 
 
 
@@ -79,7 +79,7 @@ Responsive design boils down to matters of context.
 				</div><!--copy-->
 
 				<div class="img">
-				 <img src="/wp-content/themes/BLANK-Theme/response/img/evol.png">
+				 <img src="<?php bloginfo('template_directory');?>/response/img/evol.png">
 						<p class="pimg">
 				Photo Credit: http://theabsurdityindex.wordpress.com/2011/12/20/the-myth-of-universal-human-rights-part-1/
 					</p>
@@ -109,7 +109,7 @@ Lance Porter &copy; 2013
 
 
 
-	<script src="/wp-content/themes/BLANK-Theme/js/fittext.js"></script>
+	<script src="<?php bloginfo('template_directory');?>/js/fittext.js"></script>
 	<script type="text/javascript">
 	  fitText(document.getElementById('heading'), 1.1)
 	  fitText(document.getElementById('subheading'), 2.6)
