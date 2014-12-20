@@ -1,0 +1,345 @@
+<?php
+/*
+Template Name:Misc
+*/
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+	
+	<script language="Javascript" type="text/javascript" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/js/jquery-1.4.1.js"></script>
+	<script language="Javascript" type="text/javascript" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/js/misc.js"></script>
+	<script type="text/javascript" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/js/jquery.js"></script>
+    <script type="text/javascript" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.gallery a').lightBox(); // Select all links in object with gallery ID
+});
+</script>
+		<script language="Javascript" type="text/javascript" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/js/colorplugin.js"></script>
+	<script language="Javascript" type="text/javascript" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/js/colorscript.js"></script>
+	<link rel="Stylesheet" type="text/css" href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/misc-style.css"></link>
+	<link rel="Stylesheet" type="text/css" href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/footer.css"></link>
+	<link rel="Stylesheet" type="text/css" href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/jquery.lightbox-0.5.css"></link>
+	<link href='http://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>test</title>
+</head>
+
+<body>
+
+	<div id="header">
+
+	<div id="headcon">
+	
+		<div id="logo">
+
+
+
+		</div>
+		
+		<div id="menu">
+
+
+				
+				<div id="abs_home">
+
+					<a href="https://localhost/wordpress/"></a> 
+
+				</div>
+				
+				<div id="abs_port">
+
+					<a href="https://localhost/wordpress/portfolio"></a> 
+
+				</div>
+				
+				<div id="abs_about">
+
+					<a href="https://localhost/wordpress/about"></a> 
+
+				</div>
+				
+			<div id="abs_blog">
+
+						<a href="https://localhost/wordpress/blog"></a>
+
+				</div>
+			
+
+		</div>
+	
+	
+
+
+		</div>
+
+	</div>
+
+	<div id="container">
+	
+	
+		<div id="select">
+			
+			<div id="sel_men">
+			
+				<div id="abs_all">
+				
+					<a href="https://localhost/wordpress/portfolio/"></a> 
+				
+				</div>
+				
+				<div id="abs_brand">
+				
+					<a href="https://localhost/wordpress/branding/"></a> 
+				
+				</div>
+				
+				<div id="abs_print">
+				
+					<a href="https://localhost/wordpress/print/"></a> 
+				
+				</div>
+				
+				<div id="abs_web">
+				
+					<a href="https://localhost/wordpress/web/"></a> 
+				
+				</div>
+				
+				<div id="abs_misc">
+				
+					<a href="https://localhost/wordpress/misc/"></a> 
+				
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		<div id="tile">
+		
+			 <div class="gallery" id="1">
+
+								<ul>
+
+									<li>
+										
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image1.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image1.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image12.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+										
+
+									</li>
+
+									<li>
+
+											<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image2.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image2.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image22.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+									<li>
+										
+											<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image3.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image3.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image32.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+									<li id="last">
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image4.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image4.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image42.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+
+								</ul>
+
+			</div><!-- / gallery -->
+						 <div class="gallery" id="2">
+
+								<ul>
+
+									<li>
+										
+									<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image5.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image5.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image52.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+										
+
+									</li>
+
+									<li>
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image6.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image6.jpg" width="72" height="72" alt="HE" />
+						
+															
+										</a>
+										
+
+
+									</li>
+
+									<li>
+
+									<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image7.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image7.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image72.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+									<li id="last">
+
+									<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image8.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image8.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image82.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+
+								</ul>
+
+			</div><!-- / gallery -->
+		 <div class="gallery" id="3">
+
+								<ul>
+
+									<li>
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image9.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image9.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image92.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image93.jpg" title="Lit anim id est laborum"/>				
+										</a>
+
+									</li>
+
+									<li>
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image10.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image10.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image102.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+									<li>
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image11.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image11.jpg" width="72" height="72" alt="HE" />
+										
+											
+															
+										</a>
+
+									</li>
+
+									<li id="last">
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image12a.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image12.jpg" width="72" height="72" alt="HE" />
+									
+															
+										</a>
+
+									</li>
+
+
+								</ul>
+
+			</div><!-- / gallery -->
+
+			<div class="gallery" id="4">
+
+								<ul>
+
+									<li>
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image13.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image13.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image132.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image133.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image134.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image135.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image136.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image137.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+									<li>
+
+										<!--first image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image14.jpg" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum">
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_image14.jpg" width="72" height="72" alt="HE" />
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image142.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image143.jpg" title="Lit anim id est laborum"/>
+											<!--second image--><a href="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/image144.jpg" title="Lit anim id est laborum"/>
+															
+										</a>
+
+									</li>
+
+									<li>
+
+											<!--thumbnail--><img src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_imageCS.jpg" width="72" height="72" alt="HE" />
+
+									</li>
+
+									<li id="last">
+
+									
+											<!--thumbnail--><img class="last" src="https://localhost/wordpress/wp-content/themes/BLANK-Theme/photos/thumb_imageCS.jpg" width="72" height="72" alt="HE" />
+															
+										
+
+									</li>
+
+
+								</ul>
+
+			</div><!-- / gallery -->
+		</div>
+
+	</div>
+
+</body>
+<?php get_footer(); ?>
+</html>
