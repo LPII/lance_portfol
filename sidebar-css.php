@@ -1,4 +1,5 @@
 	    <link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/footer.css"></link>
+			    <link rel="Stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/lightbox.css"></link>
 	<!--stylesheet conditional-->
 
 

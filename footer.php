@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footer"><?php get_sidebar('js');?>
 	<?php wp_footer();?>
 	<div id="foot_stuff">
 		<div id="left">
