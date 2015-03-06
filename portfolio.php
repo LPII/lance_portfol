@@ -1,269 +1,1 @@
-<?php
-/*
-Template Name: Port
-*/
-?>
-<?php get_header(); ?>
-
-
-	<div id="container">
-	
-	
-		<div id="select">
-			
-			<div id="sel_men">
-			
-				<div id="abs_all">
-				
-					<a href="/portfolio/"></a> 
-				
-				</div>
-				
-				<div id="abs_brand">
-				
-					<a href="/branding/"></a> 
-				
-				</div>
-				
-				<div id="abs_print">
-				
-					<a href="/print/"></a> 
-				
-				</div>
-				
-				<div id="abs_web">
-				
-					<a href="/web/"></a> 
-				
-				</div>
-				
-				<div id="abs_misc">
-				
-					<a href="/misc/"></a> 
-				
-				</div>
-			
-			</div>
-		
-		</div>
-		
-		<div id="tile">
-		
-			 	 <div class="gallery" id="1">
-
-								<ul>
-
-									<li>
-										
-												<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/STO_1.jpg" title="Big Stosh's Deli Logo">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/STO_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/STO_2.jpg" title="Big Stosh's Deli Logo"/>
-															
-										</a>
-										
-
-									</li>
-
-									<li>
-
-											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HE_1.jpg" title="hyprEVO Logo">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HE_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HE_2.jpg" title="hyprEVO Logo"/>
-															
-										</a>
-
-									</li>
-
-									<li>
-										
-									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DM_1.jpg" title="Dani & Micah Wedding Brand"">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DM_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DM_2.jpg" title="Dani & Micah Wedding Brand"/>
-															
-										</a>
-
-									</li>
-
-									<li id="last">
-
-										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFG_1.jpg" title="Start Young Financial Group Brand"">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFG_thumb.jpg" width="72" height="72" alt="" />
-											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFG_2.jpg" title="Start Young Financial Group Brand"/>
-															
-										</a>
-
-									</li>
-
-
-								</ul>
-
-			</div><!-- / gallery -->
-						 <div class="gallery" id="2">
-
-								<ul>
-
-														<li>
-										
-						<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/4E_1.jpg" title="4eyes2see Brand">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/4E_thumb.jpg" width="72" height="72" alt="" />
-										
-															
-										</a>
-										
-
-									</li>
-				<li>
-										
-						<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/RLE_1.jpg" title="Rocky Loves Emily Concert Poster">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/RLE_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/RLE_2.jpg" title="Rocky Loves Emily Concert Poster"/>
-															
-										</a>
-										
-
-									</li>
-
-									<li>
-
-									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SKY_1.jpg" title="Sky Club Promotional Poster">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SKY_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SKY_2.jpg" title="Sky Club Promotional Poster"/>
-															
-										</a>
-
-									</li>
-
-									<li id="last">
-
-									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMD_1.jpg" title="Dani & Micah Wedding Magnet/Postcards">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMD_thumb.jpg" width="72" height="72" alt="" />
-										
-															
-										</a>
-
-									</li>
-
-
-								</ul>
-
-			</div><!-- / gallery -->
-		 <div class="gallery" id="3">
-
-								<ul>
-
-									<li>
-
-										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/STOP_1.jpg" title="Big Stosh's Brand Collateral ">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/STOP_thumb.jpg" width="72" height="72" alt="" />
-									
-										</a>
-
-									</li>
-
-									<li>
-
-										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_1.jpg" title="hyprEVO website">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HEW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_2.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_3.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_4.jpg" title="hyprEVO website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_5.jpg" title="hyprEVO website"/>
-															
-										</a>
-
-									</li>
-
-									<li>
-
-										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_1.jpg" title="Dani & Micah Wedding website">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_2.jpg" title="Dani & Micah Wedding website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_3.jpg" title="Dani & Micah Wedding website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_4.jpg" title="Dani & Micah Wedding website"/>
-										
-											
-															
-										</a>
-
-									</li>
-
-									<li id="last">
-
-										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_1.jpg" title="Start Young Financial Group website">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFGW_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_2.jpg" title="Start Young Financial Group website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_3.jpg" title="Start Young Financial Group website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_4.jpg" title="Start Young Financial Group website"/>
-									
-															
-										</a>
-
-									</li>
-
-
-								</ul>
-
-			</div><!-- / gallery -->
-
-			<div class="gallery" id="4">
-
-								<ul>
-
-									<li>
-
-											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_1.jpg" title="AMP Music Festival website">
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/AMP_thumb.jpg" width="72" height="72" alt="" />
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_2.jpg" title="AMP Music Festival website"/>
-										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_3.jpg" title="AMP Music Festival website"/>
-															
-										</a>
-
-									</li>
-
-									<li>
-
-									<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
-															
-										</a>
-
-									</li>
-
-									<li>
-
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
-
-									</li>
-
-									<li id="last">
-
-									
-											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
-															
-										
-
-									</li>
-
-
-								</ul>
-
-			</div><!-- / gallery -->
-		</div>
-
-	</div>
-
-</body>
-<?php get_footer(); ?>
-</html>
+<?php/*Template Name: Port*/?><?php get_header(); ?>	<div id="container">				<div id="select">						<div id="sel_men">							<div id="abs_all">									<a href="/portfolio/"></a> 								</div>								<div id="abs_brand">									<a href="/branding/"></a> 								</div>								<div id="abs_print">									<a href="/print/"></a> 								</div>								<div id="abs_web">									<a href="/web/"></a> 								</div>								<div id="abs_misc">									<a href="/misc/"></a> 								</div>						</div>				</div>				<div id="tile">					 	 <div class="gallery" id="1">								<ul>									<li>																						<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/STO_1.jpg" title="Big Stosh's Deli Logo">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/STO_thumb.jpg" width="72" height="72" alt="" />											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/STO_2.jpg" title="Big Stosh's Deli Logo"/>																									</a>																			</li>									<li>											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HE_1.jpg" title="hyprEVO Logo">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HE_thumb.jpg" width="72" height="72" alt="" />											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HE_2.jpg" title="hyprEVO Logo"/>																									</a>									</li>									<li>																			<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/mm-1.jpg" title="MarzMaterials brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/mm-thumb.jpg" width="72" height="72" alt="" />																																		</a>									</li>									<li id="last">		<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DM_1.jpg" title="Dani & Micah Wedding Brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DM_thumb.jpg" width="72" height="72" alt="" />											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DM_2.jpg" title="Dani & Micah Wedding Brand"/>																																								</a>									</li>								</ul>			</div><!-- / gallery -->						 <div class="gallery" id="2">								<ul>														<li>																							<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFG_1.jpg" title="Start Young Financial Group Brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFG_thumb.jpg" width="72" height="72" alt="" />											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFG_2.jpg" title="Start Young Financial Group Brand"/>																																			</a>																			</li>				<li>													<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/4E_1.jpg" title="4eyes2see Brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/4E_thumb.jpg" width="72" height="72" alt="" />																	</a>																			</li>									<li>								<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/sms-1.jpg" title="Shannon M. Smith Brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/sms-thumb.jpg" width="72" height="72" alt="" />																																																</a>									</li>									<li id="last">									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/RLE_1.jpg" title="Rocky Loves Emily Concert Poster">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/RLE_thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/RLE_2.jpg" title="Rocky Loves Emily Concert Poster"/>																																														</a>									</li>								</ul>			</div><!-- / gallery -->		 <div class="gallery" id="3">								<ul>									<li>										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SKY_1.jpg" title="Sky Club Promotional Poster">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SKY_thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SKY_2.jpg" title="Sky Club Promotional Poster"/>																			</a>									</li>									<li>			<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMD_1.jpg" title="Dani & Micah Wedding Magnet/Postcards">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMD_thumb.jpg" width="72" height="72" alt="" />																									</a>									</li>									<li>																				<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/STOP_1.jpg" title="Big Stosh's Brand Collateral ">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/STOP_thumb.jpg" width="72" height="72" alt="" />																																										</a>									</li>																																													<li id="last">																		<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_1.jpg" title="hyprEVO website">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/HEW_thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_2.jpg" title="hyprEVO website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_3.jpg" title="hyprEVO website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_4.jpg" title="hyprEVO website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/HEW_5.jpg" title="hyprEVO website"/>																																	</a>																									</a>									</li>								</ul>			</div><!-- / gallery -->			<div class="gallery" id="4">								<ul>																<li>										<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/arb-1.jpg" title="Arbortrails Homepage redesign">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/arb-thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/arb-2.jpg" title="Arbortrails Homepage redesign"/>														</a>									</li>									<li>												<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_1.jpg" title="Dani & Micah Wedding website">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/DMW_thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_2.jpg" title="Dani & Micah Wedding website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_3.jpg" title="Dani & Micah Wedding website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/DMW_4.jpg" title="Dani & Micah Wedding website"/></a>									</li>									<li >																									<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_1.jpg" title="Start Young Financial Group website">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/SYFGW_thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_2.jpg" title="Start Young Financial Group website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_3.jpg" title="Start Young Financial Group website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/SYFGW_4.jpg" title="Start Young Financial Group website"/>																																			</a>									</li >												<li class="last">											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/fud-1.jpg" title="Frankenmuth Fudge Promo images">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/fud-thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/fud-2.jpg" title="Frankenmuth Fudge Promo images"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/fud-3.jpg" title="Frankenmuth Fudge Promo images"/>											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/fud-4.jpg" title="Frankenmuth Fudge Promo images"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/fud-5.jpg" title="Frankenmuth Fudge Promo images"/>																																	</a>									</li>								</ul>			</div><!-- / gallery -->										<div class="gallery" id="5">								<ul>																									<li>											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/o-1.jpg" title="Oransi information page">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/o-thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/o-2.jpg" title="Oransi information page"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/o-3.jpg" title="Oransi information page"/>										</a>									</li>																									<li>											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/med-1.jpg" title="MedNet Direct Promo images">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/med-thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/med-2.jpg" title="MedNet Direct Promo images"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/med-3.jpg" title="MedNet Direct Promo images"/>											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/med-4.jpg" title="MedNet Direct Promo images"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/med-5.jpg" title="MedNet Direct Promo images"/>											<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/med-6.jpg" title="MedNet Direct Promo images"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/med-7.jpg" title="MedNet Direct Promo images"/>																									</a>									</li>										<li>											<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_1.jpg" title="AMP Music Festival website">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/AMP_thumb.jpg" width="72" height="72" alt="" />										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_2.jpg" title="AMP Music Festival website"/>										<!--second image--><a href="<?php bloginfo('template_directory');?>/photos/AMP_3.jpg" title="AMP Music Festival website"/>																									</a>									</li>																<li id="last">																				<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />																																		</li>								</ul>			</div><!-- / gallery -->								</div>	</div></body><?php get_footer(); ?></html>
