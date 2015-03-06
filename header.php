@@ -22,7 +22,7 @@
 
     <title>
 
-        Home
+        Lance Porter 
 
     </title>
 
