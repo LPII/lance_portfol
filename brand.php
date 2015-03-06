@@ -117,15 +117,8 @@ Template Name:Brand
 										
 
 									</li>
-				<li>
-										
-									<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/thumb_imageCS.png" width="72" height="72" alt="CS" />
-															
-										</a>
-										
-
-									</li>
-
+		<li>																			<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/mm-1.jpg" title="MarzMaterials brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/mm-thumb.jpg" width="72" height="72" alt="" />																																		</a>									</li>
+			<li class="last">								<!--first image--><a href="<?php bloginfo('template_directory');?>/photos/sms-1.jpg" title="Shannon M. Smith Brand">											<!--thumbnail--><img src="<?php bloginfo('template_directory');?>/photos/sms-thumb.jpg" width="72" height="72" alt="" />																																																</a>									</li>
 								
 
 
