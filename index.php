@@ -20,8 +20,8 @@
 			<div id="gal_con">
 
 <div id="slideshow"> 
-     <img src="<?php bloginfo('template_directory');?>/images/gal_1.jpg" alt="" class="active"/> 
-	<img src="<?php bloginfo('template_directory');?>/images/gal_2.jpg" alt="ME"  /> 
+     <img src="<?php bloginfo('template_directory');?>/images/gal_2.jpg" alt="" class="active"/> 
+	<img src="<?php bloginfo('template_directory');?>/images/gal_1.jpg" alt="ME"  /> 
 
 
 </div> 
@@ -39,7 +39,7 @@
 
 			<div id="net_link1">
 
-			<a href="https://plus.google.com/u/0/103349617589806371663/posts/p/pub" target="_blank"></a> 
+			<a href="https://www.linkedin.com/profile/view?id=163058828&trk=nav_responsive_tab_profile" target="_blank"></a> 
 
 		</div>
 		

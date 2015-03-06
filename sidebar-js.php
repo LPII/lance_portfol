@@ -93,7 +93,7 @@
 
         $(function() {
 
-            setInterval("slideSwitch()", 3000);
+            setInterval("slideSwitch()", 4000);
 
         });
     </script>
