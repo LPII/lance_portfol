@@ -39,7 +39,7 @@
 
 			<div id="net_link1">
 
-			<a href="https://www.linkedin.com/profile/view?id=163058828&trk=nav_responsive_tab_profile" target="_blank"></a> 
+			<a href="https://www.linkedin.com/pub/lance-porter/46/736/8b8" target="_blank"></a> 
 
 		</div>
 		

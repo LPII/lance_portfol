@@ -35,7 +35,7 @@ Template Name: About
 							<p>Whether you are a potential employer or fellow designer you can reach me in a variety of ways. Lets build our networks together.</p>
 								
 								<div class="conbtn1">
-								<a href="https://www.linkedin.com/profile/view?id=163058828&trk=nav_responsive_tab_profile"target="_blank"></a>
+								<a href="https://www.linkedin.com/pub/lance-porter/46/736/8b8"target="_blank"></a>
 								</div>
 								<div class="conbtn2">
 								<a href="https://twitter.com/LancePGD "target="_blank"></a>
